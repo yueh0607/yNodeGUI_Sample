@@ -4,9 +4,8 @@
 
 这个项目只有这三个小文件，其余的不用管，可以在VisualStudio打开，那样就整洁了
 ![image](https://user-images.githubusercontent.com/102401735/232516823-d7c599e0-9252-45a0-a4c0-822012c18ac0.png)
+
 ![image](https://user-images.githubusercontent.com/102401735/232516879-c2ffa7bf-7ab7-412c-ae04-b3149d5ff88c.png)
-![image](https://user-images.githubusercontent.com/102401735/232516934-724594a9-295e-4ccc-9462-fd810c963e1d.png)
-![image](https://user-images.githubusercontent.com/102401735/232517015-0ad17eff-ef45-4f02-bad6-8d2dc260d9b8.png)
 
 
 
