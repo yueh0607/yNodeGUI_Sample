@@ -12,30 +12,33 @@
 #include"yNodeGUI.h"
 using namespace std;
 
-#pragma region Defines
+#pragma region Defines-定义一些全局使用的量
 
-#define LINESIGN "Line:"
-#define ENDSIGN "End"
-#define FILENAME1 "course.data"
-#define FILENAME2 "select.data"
-#define BGFILENAME "Resources/background.jpg"
-#define BUTTONCOLOR RGB(63, 92, 57)
-#define LINEBOXCOLOR GREEN
-#define BUTTONFONTCOLOR WHITE
-#define GIRDFONTCOLOR BLACK
-#define GIRDLINECOLOR BLACK
-#define FONTNAME "宋体"
+#define LINESIGN "Line:"  //存储文件的行标志，在course.data里看
+#define ENDSIGN "End"    //存储文件的尾标志
+#define FILENAME1 "course.data"   //存储文件名
+#define FILENAME2 "select.data"    //已选择课程文件名
+#define BGFILENAME "Resources/background.jpg"   //背景目录
+#define BUTTONCOLOR RGB(63, 92, 57)     //按钮颜色
+#define LINEBOXCOLOR GREEN       //按钮线框颜色
+#define BUTTONFONTCOLOR WHITE      //按钮字体颜色
+#define GIRDFONTCOLOR BLACK        //网格内字体颜色
+#define GIRDLINECOLOR BLACK        //王国线颜色
+#define FONTNAME "宋体"            //全局字体
 
 #pragma endregion
 
 #pragma region 数据结构
-typedef enum
+
+//存储课程性质
+typedef enum  
 {
 	Pub = 0,//公共
 	Nes = 1,//必修
 	Sel = 2,  //选修
 	NaN = 3
 }nature;
+//把课程性质与字符串直接做转换
 string Index(nature nat)
 {
 	switch (nat)
@@ -47,6 +50,7 @@ string Index(nature nat)
 		return "NULL";
 	}
 }
+//课程信息
 typedef struct
 {
 	long long id;   //课程编号
