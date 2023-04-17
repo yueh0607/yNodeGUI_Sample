@@ -10,7 +10,6 @@
 #include <string>
 #include<cmath>
 #include"yNodeGUI.h"
-#include "resource.h"
 using namespace std;
 
 #pragma region Defines
