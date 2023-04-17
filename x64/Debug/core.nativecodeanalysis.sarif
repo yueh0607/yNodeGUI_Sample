@@ -1,0 +1,652 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Canvas::message。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 2,
+                  "endLine": 180,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::{ctor}",
+                  "decoratedName": "??0Canvas@@QEAA@HHHK@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Canvas::message"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Canvas::window。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 2,
+                  "endLine": 180,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::{ctor}",
+                  "decoratedName": "??0Canvas@@QEAA@HHHK@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Canvas::window"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Canvas::OnUpdate。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 2,
+                  "endLine": 180,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::{ctor}",
+                  "decoratedName": "??0Canvas@@QEAA@HHHK@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Canvas::OnUpdate"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Canvas::OnGUI。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 2,
+                  "endLine": 180,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::{ctor}",
+                  "decoratedName": "??0Canvas@@QEAA@HHHK@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Canvas::OnGUI"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 Canvas::OnStart。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 2,
+                  "endLine": 180,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::{ctor}",
+                  "decoratedName": "??0Canvas@@QEAA@HHHK@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Canvas::OnStart"
+          }
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 307,
+                  "startColumn": 17,
+                  "endLine": 307,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::Show",
+                  "decoratedName": "?Show@Canvas@@QEAAXP6AXAEAV1@@Z11_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28159",
+          "message": {
+            "text": "考虑使用“GetTickCount64”而不是“GetTickCount”。原因: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+                },
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 16,
+                  "endLine": 330,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Canvas::Show",
+                  "decoratedName": "?Show@Canvas@@QEAAXP6AXAEAV1@@Z11_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/node_menu.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 18,
+                  "endLine": 63,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Node::Next",
+                  "decoratedName": "?Next@Node@@QEAAPEAV1@HPEA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 27,
+                  "endLine": 129,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortByid",
+                  "decoratedName": "?sortByid@@YAXAEAV?$vector@PEAUCourse@@V?$allocator@PEAUCourse@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 60,
+                  "endLine": 129,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortByid",
+                  "decoratedName": "?sortByid@@YAXAEAV?$vector@PEAUCourse@@V?$allocator@PEAUCourse@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 31,
+                  "endLine": 139,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortByCredit",
+                  "decoratedName": "?sortByCredit@@YAXAEAV?$vector@PEAUCourse@@V?$allocator@PEAUCourse@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 68,
+                  "endLine": 139,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sortByCredit",
+                  "decoratedName": "?sortByCredit@@YAXAEAV?$vector@PEAUCourse@@V?$allocator@PEAUCourse@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 7,
+                  "endLine": 192,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "showPage",
+                  "decoratedName": "?showPage@@YAXAEAVCanvas@@HHAEAV?$vector@PEAUCourse@@V?$allocator@PEAUCourse@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 27,
+                  "endLine": 194,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "showPage",
+                  "decoratedName": "?showPage@@YAXAEAVCanvas@@HHAEAV?$vector@PEAUCourse@@V?$allocator@PEAUCourse@@@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“course”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                },
+                "region": {
+                  "startLine": 273,
+                  "startColumn": 2,
+                  "endLine": 273,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "input",
+                  "decoratedName": "?input@@YAXAEAVMenu@@AEAVCanvas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 263,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 267,
+                            "startColumn": 136
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 269,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“course”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 271,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 272,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+                          },
+                          "region": {
+                            "startLine": 273,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“course”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/framework.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "07567500fe1d285c495c7c3fc3a3fd6c3d9fdefb8d6d6d1cb8466f5926da4be6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/node_menu.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "80ab513395478cc1d1ce290e2b4dee1adf86cef0e30e1ff2d0409b03bde0573b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///X:/Projects/ImportantProjects/yNodeGUI_Sample/core.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9b66e4f7b834aa1d18faef567d3956ed673d68f53395f0952cc48e493bdff939"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/community/vc/auxiliary/vs/include/easyx.h"
+          },
+          "hashes": {
+            "sha-256": "4191c00c18579aa242a4c2cdcbdf37b8d0558f8356360dddf31f6ba7b9bcd47e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/microsoft visual studio/2022/community/vc/auxiliary/vs/include/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "463486e44fb2c9afc1b9a4b8734f55ab32964843bbe18081b81d8dc4689d4037"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///x:/projects/importantprojects/ynodegui_sample/ynodegui.h"
+          },
+          "hashes": {
+            "sha-256": "a2e960749ba814f22679828177057743f453086311d2fc659e845181a3c4b3ec"
+          }
+        }
+      ]
+    }
+  ]
+}

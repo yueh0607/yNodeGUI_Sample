@@ -1,3 +1,5 @@
 X:\Projects\C Projects\CIFSYSTEM\x64\Debug\CIFSYSTEM.exe
 X:\Projects\ImportantProjects\yNodeGUI\x64\Debug\CIFSYSTEM.exe
 X:\Projects\ImportantProjects\yNodeGUI_Sample\x64\Debug\CIFSYSTEM.exe
+X:\Projects\ImportantProjects\yNodeGUI_Sample\x64\Debug\CIFSYSTEM.exe.lastcodeanalysissucceeded
+X:\Projects\ImportantProjects\yNodeGUI_Sample\x64\Debug\NativeCodeAnalysis.read.1.tlog
